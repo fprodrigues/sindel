@@ -10,7 +10,7 @@ export default function Navbar(props: Props) {
   return (
     <>
       <S.Nav>
-        <S.Logo src='/logo.svg' />
+        <S.Logo src='/logo.svg' alt="cibeli" />
       </S.Nav>
       <SearchBar/>
       <Burger />
